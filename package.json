@@ -1,7 +1,14 @@
 {
-    "name": "maze",
+  "name": "maze",
   "description": "virtual reality maze",
-  "version": "1.0.0",
+  "main": "script.js",
+  "autor": "holly",
   "engines": {
     "node": "8.9.4"
+  }
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  }
 }
